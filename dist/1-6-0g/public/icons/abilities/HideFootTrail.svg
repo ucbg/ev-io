@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119.507" height="119.507" viewBox="0 0 119.507 119.507">
+  <g id="HideFootTrail" transform="translate(-4.204 -4.204)">
+    <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(63.957 8.446) rotate(45)" fill="none" stroke="#fff" stroke-width="3">
+      <rect width="78.504" height="78.504" stroke="none"/>
+      <rect x="-1.5" y="-1.5" width="81.504" height="81.504" fill="none"/>
+    </g>
+    <rect id="Rectangle_36" data-name="Rectangle 36" width="78.504" height="78.504" transform="translate(63.957 8.446) rotate(45)" fill="#007fff" opacity="0.5"/>
+    <g id="HideFootTrail-2" data-name="HideFootTrail" transform="translate(29.605 38.832)">
+      <path id="Path_73" data-name="Path 73" d="M102.441,50.22l8.158,5.357,20.251-13.3-8.323-5.466L117.145,40.4,120,42.278l-9.4,6.173-2.776-1.823Z" transform="translate(-62.692 -22.528)" fill="#fff"/>
+      <path id="Path_74" data-name="Path 74" d="M71.274,29.923,79.6,35.389l-4.565,3.047,1.89,1.242L106.107,20.2l-1.89-1.242L99.683,21.98l-8.158-5.357ZM92.853,26.54l-1.327-.871-6.478,4.254,1.38.906-1.448.967-2.852-1.873,9.4-6.173L94.3,25.574Z" transform="translate(-43.618 -10.173)" fill="#fff"/>
+      <path id="Path_75" data-name="Path 75" d="M127.85,49.469l-1.38-.906-6.425,4.289,1.327.871Z" transform="translate(-73.465 -29.72)" fill="#fff"/>
+      <path id="Path_76" data-name="Path 76" d="M14.182,40.218l-2.842,1.668L0,36.676l.453-4.73s2.969-5.13,4.462-7.739l2.043-.514,1.836-5.432,3.6-.567-.033.08,1.273-.174h0l1.188-2.226,1.887-3.242-.388-1.145-.407-3.869L19.683.973,20.1,0H47.907L47.8.546,43.12,7.7,29.544,16.616l-1.616,1.061L24.772,19.75l3.359,2.206,1.187.779,2.033,1.335.732,1.843-3.537,2.361.615.4,1.585,1.041L33.311,31.4l3.386-2.26c2.707,3.214,6.461,8.119,6.461,8.119l2.716-.649,4.09,2.94-.233,2.4L52.2,44.091v4.974l-3.761,2.3H30.2l-4.69-1.719s.107-1.108.242-2.516Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,826 @@
+
+
+
+
+
+<!--
+<script type="text/javascript">
+
+if(!window.location.search.substr(1).includes("pass")) {
+window.location.href = "/maintenance";
+
+}
+
+</script>
+-->
+
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="manifest" href="dist/1-6-0g/public/manifest.json">
+  <!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script> -->
+
+
+  <script src="dist/1-6-0g/public/libs/jquery.min.js">
+    </script> 
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="/patch/js/null.js?https://www.googletagmanager.com/gtag/js?id=UA-52115231-29">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-52115231-29', {
+            cookie_flags: 'secure;samesite=none'
+        });
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        var referurl = (window.location != window.parent.location) ? document.referrer : document.location.href;
+        var rAd;
+        var iAd;
+        var crazysdk;
+        var cpmstarAPI;
+        var atCrazyGames = false;
+        var cpmstar = false;
+        var playwire = false; 
+        var useGoogleH5 = false;
+        var useSuperAwesome = false;
+        var allowLinks = true;
+        var disableAds = true;
+        var isUsingAdblocker = true; 
+        var electronAPI; 
+
+
+if (location.ancestorOrigins) {
+    for (var i = 0; i < location.ancestorOrigins.length; i++) {
+
+        if (location.ancestorOrigins[i].includes("crazy")) {
+            atCrazyGames = true;
+        }
+
+    }
+}
+
+if (referurl.includes("crazy") || urlParams.get('ref') === 'crazy') {
+    atCrazyGames = true;
+}
+
+function inIframe() {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
+
+if (atCrazyGames) {
+    localStorage.setItem('atCrazy', true);
+}
+
+
+if ((localStorage.getItem('atCrazy') === "true") && inIframe()) {
+    atCrazyGames = true;
+}
+
+
+
+
+
+        if (atCrazyGames) {
+                   jQuery.getScript('https://sdk.crazygames.com/crazygames-sdk-v1.js', function() {
+                       crazysdk = window.CrazyGames.CrazySDK.getInstance();
+                       //Getting the SDK
+                       crazysdk.init();
+                       //Initializing the SDK, call as early as possible
+                   })
+                   
+        } else {
+
+             //     jQuery.getScript('//api.adinplay.com/libs/aiptag/pub/IOG/ev.io/tag.min.js', function() {})
+
+        }
+
+        
+    </script>
+    <title>Play ev.io - the play to earn blockchain FPS Unblocked - Unblocked Games 66</title>
+
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, user-scalable=no"> 
+
+    <meta name="description" content="ev.io is a play to earn blockchain FPS which allows you to earn Solana for every kill. Play here on the official site!">
+    <meta property="og:title" content="ev.io" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="https://ev.io" />
+    <meta property="og:image" content="/themes/ev/images/ev-io-og-image.png" />
+    <meta id="game_version_meta" name="game_version" content="1-6-0g" />
+    <meta id="dist_path_meta" name="dist_path" content="dist/1-6-0g/public/" />
+    <link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootswatch@3.4.0/cyborg/bootstrap.css" integrity="sha256-E0yAdlGkeR3i3Y6oTVkN/eVEVbFyzAZdqpgNlvW664s=" crossorigin="anonymous" />
+    <link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap-cyborg.css" integrity="sha512-N8CIXGD1VqOdr/GXmNffK/sFTgLvG1eDahS1NfOmtiFzL9I91M2D/PPQXDKahH7ng/nNYrV+fmxMCqq9XfHuwg==" crossorigin="anonymous" />
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_rT06N1hzNwWZvlauEGw5ZNFVKBrR23ibx56HC8Lyx4M.css" />
+
+        
+            <link rel="stylesheet" type="text/css" href="dist/1-6-0g/public/libs/simplebar.min.css">
+            <link rel="stylesheet" type="text/css" href="dist/1-6-0g/public/css/style-game.css?v=5333">
+            <link rel="stylesheet" type="text/css" href="dist/1-6-0g/public/css/editor.css?v=5333">
+            <link rel="preload" as="image" href="dist/1-6-0g/public//img/load_spin.svg">
+
+            <!-- Begin comScore Tag -->
+            <script>
+                var _comscore = _comscore || [];
+                _comscore.push({
+                    c1: "2",
+                    c2: "22419751"
+                });
+                (function() {
+                    var s = document.createElement("script"),
+                        el = document.getElementsByTagName("script")[0];
+                    s.async = true;
+                    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script>
+            <noscript>
+                <img src="https://sb.scorecardresearch.com/p?c1=2&c2=22419751&cv=2.0&cj=1" />
+            </noscript>
+            <!-- End comScore Tag -->
+
+
+
+
+
+<!-- CPMSTAR -->
+<!-- ZONETAG - PLACE INTO HEAD SECTION OR RUN CODE AT STARTUP -->
+
+<script>
+(function(zonefile) { 
+var y = "cpmstarx";
+
+var drutObj = window[y] = window[y] || {};
+function failCpmstarAPI() { isUsingAdblocker = true; var failFn = function(o) { o && typeof(o) === "object" && o.fail && o.fail(); }; drutObj && Array.isArray(drutObj.cmd) && drutObj.cmd.forEach(failFn) && (drutObj.cmd.length = 0);  window.cpmstarAPI = window["_"+zonefile] = failFn; }
+var rnd = Math.round(Math.random()*999999);
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.onerror=failCpmstarAPI;
+var proto = document.location.protocol;
+var host = ( proto == "https:" || proto == "file:")?"https://server":"//cdn";
+if(window.location.hash=="#cpmstarDev") host = "//dev.server";
+if(window.location.hash=="#cpmstarStaging") host = "//staging.server"; 
+s.src = "patch/js/null.js?" + host + ".cpmstar.com/cached/zonefiles/" + zonefile + ".js?rnd="+rnd; 
+var s2=document.getElementsByTagName('script')[0];
+s2.parentNode.insertBefore(s, s2);
+window.cpmstarAPI = function(o) { (drutObj.cmd = drutObj.cmd || []).push(o); }
+}('678_51957_gameapi'));
+</script>
+
+
+<!-- GOOGLE H5 
+
+  <script async
+       data-ad-frequency-hint="30s"
+       src="patch/js/null.js?pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1975621113317922"
+       crossorigin="anonymous">
+   </script>
+   <script>
+      window.adsbygoogle = window.adsbygoogle || [];
+      var adBreak = adConfig = function(o) {adsbygoogle.push(o);}
+   </script>
+
+ END GOOGLE H5 -->
+
+
+	<script>
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  //centered, bottom
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+	}
+
+	aiptag.cmd.player.push(function() {
+		aiptag.adplayer = new aipPlayer({
+			AIP_REWARDEDCOMPLETE: function (state)  {
+				
+				//state can be: timeout, empty or closed
+				alert("Rewarded Ad Completed: " + state);
+			},
+			AIP_REWARDEDGRANTED: function ()  {
+				
+				//at this point the reward is granted, usually this will be just before or after AIP_REWARDEDCOMPLETE but this is not always the case
+				alert("Reward Granted");
+			},
+			AD_WIDTH: 960,
+			AD_HEIGHT: 540,
+			AD_DISPLAY: 'fullscreen', //default, fullscreen, center, fill
+			TRUSTED: true,
+			LOADING_TEXT: 'loading advertisement',
+			PREROLL_ELEM: function(){return document.getElementById('preroll')},
+			AIP_COMPLETE: function (state)  {
+				/*******************
+				 ***** WARNING *****
+				 *******************
+				 Please do not remove the PREROLL_ELEM
+				 from the page, it will be hidden automaticly.
+				 If you do want to remove it use the AIP_REMOVE callback.
+				*/
+				
+			//	alert("Preroll Ad Completed: " + state);
+			},
+			AIP_REMOVE: function ()  {
+				// Here it's safe to remove the PREROLL_ELEM from the page if you want. But it's not recommend.
+			}
+		});
+
+        adplayer = aiptag.adplayer; 
+	});
+
+	function show_preroll() {
+		//check if the adslib is loaded correctly or blocked by adblockers etc.
+		if (typeof aiptag.adplayer !== 'undefined') {
+			aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+		} else {
+			//Adlib didnt load this could be due to an adblocker, timeout etc.
+			//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE or AIP_REMOVE.
+		//	alert("Ad Could not be loaded, load your content here");
+        console.log('ad could no be loaded');
+		}
+	}
+	</script>
+
+ 
+
+</head>
+
+<body oncontextmenu="return false;">
+    <script async src="https://unpkg.com/chart.js@3.6.1/dist/chart.min.js"></script>
+    <div id="preroll">
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="speedLinesDiv" style="display: none;"></div>
+    <canvas id="canvas2" style="opacity: 0;"></canvas>
+    <div id="flashWhiteDiv" style="opacity: 0;"></div>
+    <div id="load_div_cont">
+        <div id="loading-status"></div>
+        <img src="dist/1-6-0g/public/img/logos/loading_v1_1.png" id="loadingsvg" />
+        <div id="pre_load_text" class="translate-me">Connecting ...
+        </div>
+        <div id="load_div">
+        </div>
+    </div>
+
+    <!-- Begin Game HUD -->
+    <div id="game_hud" style="display: none">
+        <div id="game_hud_inner">
+            <div id="teamAlivePlayersDiv" style="display: none;">
+                <span class="team_tags" id="teamTag1">Your Team
+                </span>
+                <div id="teamAliveTeam1"></div>
+                <span class="team_tags" id="teamTag2">Enemies
+                </span>
+                <div id="teamAliveTeam2"></div>
+            </div>
+            <div id="join_spin" class="lds-dual-ring">
+            </div>
+            <div id="my_kill_div" style="display: none;">
+                <div id="my_kill_skull">
+                    <div id="my_kill_number">
+                    </div>
+                </div>
+                <div id="my_kill_text">
+                </div>
+            </div>
+            <div id="score_div" style="display: none;">
+            </div>
+            <div id="error_message" style="display: none;">
+            </div>
+            <div id="right_side_wrapper" class="ui-scalable hud">
+                <div id="info_cont">
+                    <div id="time_left">
+                        <img id="time_icon" src="dist/1-6-0g/public/img/icons/time.png">
+                        <span>2:33
+                        </span>
+                    </div>
+                    <div id="fps_meter">
+                        <span>59 FPS
+                        </span>
+                    </div>
+                    <div id="ping_meter">
+                        <img id="ping_icon" src="dist/1-6-0g/public/img/icons/ping.png">
+                        <span>84
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="statsTableDivCont">
+                <button id="stats-tab-leaderboard-bttn" style="left:75px;display:none;" class="stats-tab-bttn-selected">Leaderboard</button>
+                <button id="stats-tab-earn-bttn" style="left:190px;display:none;" class="stats-tab-bttn-not-selected">Earn</button>
+                <button id="stats-tab-performance-bttn" style="left:245px;display:none;" class="stats-tab-bttn-not-selected">Performance</button>
+                <div id="statsTableDiv">
+                    <div id="stats_results_holder">
+                        <div id="stats_results" style="display: none;">
+                        </div>
+                        <table id="statsTable" class="table">
+                        </table>
+                        <div id="statsTableSpectators">
+                            <span id="spectatorsLabel">
+                            </span>
+                            <span id="spectatorsList">
+                            </span>
+                        </div>
+                        <div id="rewards">
+                        </div>
+                    </div>
+                    <div id="earnDiv">
+                        Performance
+                    </div>
+                    <div id="performanceDiv">
+                        Performance
+                    </div>
+                </div>
+                <div style="clear:both;">
+                </div>
+            </div>
+            <div id="killMessagesDiv">
+            </div>
+            <div id="stateMessagesDiv" style="opacity: 0;">
+            </div>
+            <div id="chatMessagesDiv">
+                <div id="chatMessagesDivInner">
+                </div>
+            </div>
+            <div id="chatLogDiv">
+            </div>
+            <div id="ammoDiv" class="ui-scalable hud">
+                <span id="ammo_smaller">
+                </span>
+            </div>
+            <div class="ui-scalable" id="cartridgeDivBar">
+                <div id="cartridge" style="width: 385px;">
+                </div>
+            </div>
+            <div id="weaponsDiv" class="ui-scalable-center ui-scalable hud" style="margin-left: -76px; transform: scale(1); display: block;">
+            </div>
+ 
+
+            <svg height="100" width="100" id="reloadingBar">
+ <circle cx="50" cy="50" r="40" stroke="#fff" stroke-width="6" fill-opacity="0.0" />
+</svg> 
+
+            <div id="respawnDiv">
+                <div id="killedByMsgDiv">
+                </div>
+                <div id="respawnButton">Press Space to respawn
+                </div>
+            </div>
+            <div id="items_container">
+            </div>
+            <div id="lower_left_container">
+                <div id="healthNumberDiv">100/100
+                </div>
+                <div id="current_ammo_num">0 / 0
+                </div>
+                <div id="healthDivCont" class="ui-scalable ui-scalable-left hud">
+                    <div id="healthDiv" style="width: 360px;">
+                    </div>
+                    <div id="armorDiv" style="width: 360px;">
+                    </div>
+                </div>
+                <div id="manaDivCont" class="ui-scalable ui-scalable-left hud">
+                    <div id="manaDiv" style="width: 260px;">
+                    </div>
+                </div>
+                <div id="icons_container"></div>
+            </div>
+            <div id="ping_div">
+                <span>Ping:
+                </span>
+                <span id="ping_span">100
+                </span>
+            </div>
+            <div id="fps_div">
+                <span>FPS:
+                </span>
+                <span id="fps_span">60
+                </span>
+            </div>
+            <div id="hamburger" class="hud" style="display: block;">
+                <img src="dist/1-6-0g/public/img/icons/hamburger.png">
+                <span id="menu_hotkey_top">M
+                </span>
+            </div>
+
+
+            <div id="roundCountdownContainer">
+                <span id="team_1_top_score" style="display: none;">0</span>
+                <div id="roundCountdown">
+                    9:99
+                </div>
+                <span id="team_2_top_score" style="display: none;">0</span>
+                <div id="missionInfoDiv"></div>
+                <div id="roundCounter">
+                    Round 1
+                </div>
+            </div>
+            <div id="roundOverMessage">Round Complete
+            </div>
+            <div id="xp_bar" class="hud" style="display: block;">
+                <div id="xp_inner" style="width: 70%;">
+                </div>
+            </div>
+            <div id="xp_notify">+ 0 XP
+            </div>
+            <div id="spec_target_div" style="display: none;">
+                <div id="freeCamMsgDiv"></div>
+                <div id="spec_target_div_inner"></div>
+            </div>
+
+
+            <div id="resurrect_div" style="display: none;">
+            </div>
+            <div id="resurrect_div_bar" style="display: none;">
+                <div id="resurrect_div_bar_inner">
+                </div>
+            </div>
+            <div id="survival_boss_info" style="right: 20px;">
+                <div id="survival_boss_info_boss"></div>
+                <div id="special_wave_info"></div>
+            </div>
+
+            <div id="permaLeaderboard" style="display: none;">
+                <table id="permaLeaderboardTable"></table>
+                <div id="linkToLeaderboardPageDiv"></div>
+            </div>
+        </div>
+
+        <canvas id="canvas_crosshair" width="200" height="200">
+        </canvas>
+
+    </div>
+    <!-- End Game HUD -->
+
+    <!-- Begin Game Menu Overlay-->
+    <div id="game_menu_overlay" data-delay="1" style="display: none">
+        <div id="black_overlay"></div>
+
+        <div id="enter_party_id" style="display: none; ">
+            <span id="close_enter_party" class="close_button">[x]
+            </span>
+            <input placeholder="enter party code ..." type="text" id="party_alias_input" style="">
+            <button class="btn" id="join_party_enter">JOIN
+            </button>
+        </div>
+
+        <div id="links_center">
+            <button id="exit_test_mode_button" type="button" class="btn translate-me" style="display: none;">Exit test mode
+            </button>
+            <button id="lobby_list_button" type="button" class="btn" style="display: none;">Tourney Lobbies
+            </button>
+            <button id="mini_games_button" type="button" class="btn translate-me" style="display: none;">Minigames
+            </button>
+
+
+            <div class="btn" id="create_tournament_button">
+                <div name="game-modes" id="tournament-select" class="form-control">
+                    <div class="translate-me">tournament</div>
+                </div>
+            </div>
+            <!--<button type="button" id="create_tournament_button" class="btn translate-me">Create Tournament</button>-->
+            <div id="party_hr" class="hr"></div>
+
+            <button type="button" id="load_replay_button" class="btn translate-me" style="display: none;">Load Replay
+            </button>
+        </div>
+
+        <div id="local_game_warning" style="display: none;" class="translate-me">
+            multiplayer will not work on this game as it is running locally
+        </div>
+
+        <div id="top_bar" class="menu_overlay">
+            <img id="logo" src="dist/1-6-0g/public/img/logos/evio1.png">
+            <div id="top_bar_cont">
+                            <button id="priv_game" type="button" class="btn translate-me">Private
+            </button>
+
+
+
+            
+
+         <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Loadout
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+    <li><a id="abilities_button_top" href="#">Abilities</a></li>
+
+    <li><a id="profile_button" href="#">Inventory</a></li>
+        <li><a id="lend_skins_button" href="/lend" target="_blank">Lend Skins</a></li>
+        <li><a id="abilities_button_top" href="/preview" target="_blank">Skin Prevew Tool <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+    <!--
+         <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Store
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
+    <li><a id="store_button" href="#">Rotation</a></li>
+
+    <li><a id="spin_button" href="#">Spin Wheel</a></li>
+
+  </ul>
+</div>
+-->
+
+
+
+
+
+
+        
+            
+
+
+
+      <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="social-nav-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Social
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="social-nav-button">
+    <li><a id="social_friends_list_button" href="#">Friends List</a></li>
+    <li><a id="social_clan_button" href="#">Clan Hub</a></li>
+    <li><a id="social_add_friend_button" href="#">Add a Friend</a></li>
+    <li><a id="social_clan_invites" href="#">Clan Invites</a></li>
+    <li><a id="social_my_profile" href="#">My Profile</a></li>
+    <li><a id="social_set_bio" href="#">Set bio</a></li>
+    <li><a id="create_party_button" href="#">Create Party</a></li>
+    <li><a id="join_party_button" href="#">Join Party</a></li>
+  </ul>
+</div>       
+
+
+
+        
+            <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Crypto
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+      <li><a id="connect-wallet-secondary-btn" href="#">Connect Wallet</a></li>
+
+    <li><a id="claim-sol-profile-bttn" href="#">Convert</a></li>
+    <li><a id="claim-sol-profile-history-bttn" href="#">Conversion History</a></li>
+        <li><a href="/burn" target="_blank">Craft <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+
+    <li><a href="https://nft.ev.io" target="_blank">Earn <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="https://explorer.ev.io" target="_blank">Collection Explorer <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="https://fractal.is/ev" target="_blank">Marketplace <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="/vote" target="_blank">Governance <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+
+  </ul>
+</div>
+         
+
+
+
+
+
+               <button type="button" id="settings_button" class="btn btn-secondary btn-sm translate-me">Settings
+                </button>
+
+
+            </div>
+        </div>
+
+        <div id="mobile-main-menu" class="menu_overlay">
+            <div id="mobile-main-menu-center">
+                <button type="button" id="mobile-abilities_button" class="mobile-abilities-button"></button>
+                <button type="button" id="mobile-profile_button" class="mobile-profile-button"></button>
+                <button type="button" id="mobile-settings_button" class="mobile-settings-button"></button>
+            </div>
+        </div>
+
+        <div id="bottom_bar" class="menu_overlay">
+            <div id="bottom_bar_left">
+                                <button type="button" id="login_button" class="btn btn-secondary btn-sm translate-me">Login
+                </button>
+                                <button type="button" id="rankings_button" class="btn btn-secondary btn-sm">
+                    <span class="translate-me">Rankings
+                    </span>
+                </button>
+
+                <button type="button" id="feedback_button" class="btn btn-secondary btn-sm">
+                    <span class="translate-me">Feedback
+                    </span>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-sm">
+                    <a href="/info" target="_blank" class="translate-me">More
+                    </a>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="editor_button" style="display: none;">
+                    <span>Editor</span>
+                </button>
+
+            </div>
+            <div id="bottom_bar_right">
+                <button type="button" id="abilities_button" class="btn btn-secondary btn-sm">
+                    <img id="abilities_icon" src="dist/1-6-0g/public/img/icons/abilities_sm.png" />
+                    <span class="translate-me">Abilities
+                    </span> ⥤
+                </button>
+
+                <a target="_blank" class="sm_link" id="twitter" href="https://twitter.com/play_evio">
+                    <img src="dist/1-6-0g/public//img/twitter.png" />
+                </a>
+                <!--
+                <a target="_blank" class="sm_link" id="discord" href="https://www.tiktok.com/@play_evio">
+                    <img src="dist/1-6-0g/public//img/tik-tok.png" />
+                </a>
+
+                -->
+                <a target="_blank" class="sm_link" id="reddit" href="https://discord.gg/PsqyKjDKBZ">
+                    <img src="dist/1-6-0g/public//img/discord.jpg" />
+                </a>
+            </div>
+        </div>
+
+        <div id="daily_quests_div"></div>
+
+        <img alt="toggle full screen" title="toggle full screen" src="dist/1-6-0g/public/icons/open_fullscreen.png" id="full_screen_button">
+        <div id="party_container" style="display: none">
+            <div id="party_count">( 1 / 4 )
+            </div>
+            <div id="party_members">
+            </div>
+            <div id="party_actions">
+                <button id="share_party_button" type="button" class="btn">
+                    <span class="share_link_span" class="translate-me">Share Link
+                    </span>
+                    <span class="copied_link_span" class="translate-me">Copied!
+                    </span>
+                </button>
+                <button id="leave_party_button" type="button" class="btn translate-me">Leave Party
+                </button>
+            </div>
+            <span id="party_alias">
+            </span>
+        </div>
+
+        <div id="ad_728" class="banner_ad"></div> 
+      
+    <!--  <div id="ev-io_728x90_2" class="banner_ad"></div> -->
+    </div>
+    <!-- End Game Menu Overlay -->
+
+    <div id="editorBar" style="display: none;"></div>
+    <div id="editorDataWindow" style="display: none;"></div>
+    <div id="editorWeaponsWindow" style="display: none;"></div>
+    <div id="editorFeedWindow" style="display: none;"></div>
+    <div id="editorNewTriggerWindow" style="display: none;">
+        <div id="editorNewTriggerWindowContent"></div>
+        <button id="editorNewTriggerWindowCloseButton">X</button>
+    </div>
+
+    <!-- Begin Lobby Screen -->
+    <div id="lobbyBG" style="display: none;">
+        <div id="lobbyDiv">
+            <div id="lobbyDivGameMode"></div>
+            <div id="lobbyDivSettings">
+                <div class="translate-me" id="lobbyDivSettingsTitle">Settings</div>
+                <div id="lobbyDivOptions"></div>
+                <div id="tournament_maps_select">
+                    <div id="selected_map_div">
+                        <div id="selected_map_div_title"></div>
+                    </div>
+                    <div id="tournament_map_list_div"></div>
+                </div>
+            
+            <div style="clear:both;"></div>
+            </div>
+            <div id="lobbyTeamsDiv">
+                <div id="lobbyDivTeam1">
+                    <div id="lobbDivTeam1Title">Team 1</div>
+                    <div id="lobbDivTeam1Content"></div>
+                </div>
+                <div id="lobbyDivTeam2">
+                    <div id="lobbDivTeam2Title">Team 2</div>
+                    <div id="lobbDivTeam2Content"></div>
+                </div>
+                <div id="lobbyDivTeam3">
+                    <div class="translate-me" id="lobbDivTeam3Title">Spectators</div>
+                    <div id="lobbDivTeam3Content"></div>
+                </div>
+            </div>
+            <div id="lobbyDivButtons">
+                <button class="btn translate-me" id="lobbyDivStartButton">Start</button>
+                <button id="lobbyDivShareButton" type="button" class="btn">
+                    <span class="share_link_span" class="translate-me">Share Game</span>
+                    <span class="copied_link_span" class="translate-me">Copied!</span>
+                </button>
+                <button class="btn translate-me" id="lobbyDivQuitButton">Return To Menu</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Lobby Screen -->
+
+    <div id="fracSurPWDiv" style="display: none;">
+        <div>This gamemode requires a password</div>
+        <div><input type="text" id="fraSurPWInput" /></div>
+        <div><button id="fracSurStartButton">start</button></div>
+        <div id="fracSurStateMsgDiv"></div>
+        <button id="fracSurCancelButton" style="display: none;">[X]</button>
+    </div>
+
+    <input type="text" id="chat_input" style="display: none;" />
+    <div id="team_chat_toggle" style="display: none;"></div>
+    <div id="chat_log_div" style="display: none;">
+    </div>
+    <script src="https://unpkg.com/core-js-bundle@3.6.5/minified.js">
+    </script>
+    <script src="https://www.unpkg.com/promise-polyfill@8.1.3/dist/polyfill.min.js">
+    </script>
+    <script src="https://unpkg.com/whatwg-fetch@3.0.0/dist/fetch.umd.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/dat.gui.min.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/lodash.min.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/simplebar.min.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/tween.umd.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/three.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/msgpack.min.js">
+    </script>
+    <script src="dist/1-6-0g/public/libs/howler.min.js">
+    </script>
+    <script>
+        window.Howler__shim__ = {
+            Howler,
+            Howl
+        };
+    </script>
+    <!-- Libs needed to make client-side wallet transactions -->
+    <script src="dist/1-6-0g/public//sdks/web3.js">
+    </script>
+    <script src="dist/1-6-0g/public//sdks/bs58.js">
+    </script>
+    <!--  -->
+    <script src="dist/1-6-0g/public/bundle.js?v=9878687jkhkjh">
+    </script>
+    
+        <div style="display: none" id="coin_balance_init">
+        </div>
+
+        <div id='trendi-player-container'>
+   <div id='trendi-player-placeholder'>
+   </div>
+</div>
+</body>
+
+</html>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('./sw.js').then(function(registration) {
+            }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
+
+
